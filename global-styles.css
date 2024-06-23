@@ -1,0 +1,83 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #1E1E1E;
+  color: #E0E0E0;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #282c34;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #909aa9;
+  border-radius: 10px;
+  border: 2px solid #282c34;
+}
+
+::-webkit-scrollbar-thumb:window-inactive {
+  background-color: #606774;
+}
+
+body {
+  scrollbar-width: thin;
+  scrollbar-color: #909aa9 #282c34;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: #282c34;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #909aa9;
+  border-radius: 10px;
+  border: 2px solid #282c34;
+}
+
+body::-webkit-scrollbar-thumb:window-inactive {
+  background-color: #606774;
+}
+
+/* Dark theme for SweetAlert */
+.swal2-popup {
+    background-color: #2b2b2b; /* Dark background color */
+    color: #ffffff; /* Text color */
+    border: 1px solid #4a4a4a; /* Border color */
+    font-family: 'Arial', sans-serif; /* Optional: Font family */
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.5); /* Optional: Box shadow for depth */
+}
+
+.swal2-title {
+    color: #ffffff; /* Title text color */
+}
+
+.swal2-content {
+    color: #dddddd; /* Content text color */
+}
+
+.swal2-button {
+    background-color: #4CAF50; /* Button background color */
+    color: #ffffff; /* Button text color */
+    border: none; /* Remove button border */
+    box-shadow: none; /* Remove button box shadow */
+    padding: 10px 24px; /* Optional: Adjust padding */
+}
+
+.swal2-button:hover {
+    background-color: #45a049; /* Darken button on hover */
+}
+
+.swal2-button:focus {
+    box-shadow: 0 0 0 3px rgba(76, 175, 80, 0.4); /* Optional: Add focus outline */
+}
+
+.swal2-button:not(:last-child) {
+    margin-right: 10px; /* Optional: Adjust button spacing */
+}
